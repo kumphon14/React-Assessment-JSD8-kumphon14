@@ -1,0 +1,51 @@
+/* UserTableHome.css */
+
+.table-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #f9f9f9; /* พื้นหลังของ container */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .user-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+  }
+  
+  .user-table thead th {
+    background-color: #007acc; /* สีหัวตาราง */
+    color: #ffffff;
+    padding: 12px;
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  .user-table tbody td {
+    padding: 10px;
+    border-top: 1px solid #ddd; /* เส้นขอบเซลล์ */
+    color: #333;
+  }
+  
+  .user-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2; /* สีพื้นหลังสำหรับแถวที่สอง */
+  }
+  
+  .user-table tbody tr:hover {
+    background-color: #e6f7ff; /* สีพื้นหลังเมื่อ hover */
+  }
+  
+  .user-table tbody td[colspan="4"] {
+    text-align: center;
+    color: #888;
+    padding: 20px;
+  }
+  
